@@ -1,0 +1,237 @@
+.logo {
+
+    margin-top: 27px;
+    margin-bottom: 0px;
+    height: 100px;
+    width: 500px;
+
+}
+
+
+.header {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.line {
+    border-right: 1px solid gray;
+
+}
+
+/* ABOUT  */
+
+.about-section {
+    padding: 60px 0;
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgba(91, 91, 91, 0.242), rgba(0, 0, 0, 0.7)) , url('images/aboutustitle.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+    color: #fff;
+}
+
+.breadcrumb {
+    background-color: transparent;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    color: white
+}
+
+.breadcrumb-item {
+    background-color: #5d5d5db4;
+    padding: 4px 10px;
+    border-radius: 5%;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.breadcrumb-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.breadcrumb-item a:hover {
+    color: rgb(215, 215, 215);
+    text-decoration: none;
+}
+
+.breadcrumb-item.active {
+    color: rgb(215, 215, 215);
+}
+
+.section-title {
+    font-size: 2.2rem;
+    font-weight: bolder;
+}
+
+.section-title-line {
+    width: 250px;
+    height: 2px;
+    background-color: #ffffff;
+    margin: 20px auto;
+}
+
+/* STARTING IMAGE */
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.product-image {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+/* .product-image:hover {
+    transform: scale(1.1);
+} */
+
+.heading {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.icon-text {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.icon-text i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.icon-text h5 {
+    font-weight: bold;
+}
+
+
+
+
+.brand-section {
+    margin-top: 40px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.brand-logo {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.brand-logo:hover {
+    transform: scale(1.1);
+
+}
+
+.brand-info h2 {
+    font-size: 24px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+
+}
+
+.brand-info p {
+    transition: color 0.3s ease;
+}
+
+.brand-info:hover h2,
+.brand-info:hover p {
+    transform: scale(1.1);
+    transition:  0.8s ease;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.footer-area {
+    background-color: rgb(33 37 41);
+    color: white;
+    margin: 0px 0px;
+    padding-bottom: 10px;
+}
+
+.footer {
+    border: px solid black;
+    background-color: transparent;
+    color: black;
+    border-radius: 1%;
+    border-bottom: 2px solid white;
+}
+
+.footer-icons a svg {
+    transition: transform 1s;
+    transform-style: preserve-3d;
+
+
+}
+
+.footer-icons a svg:hover {
+    transform: rotateY(360deg);
+  
+
+}
+
+.footer h5 {
+    font-size: 20px;
+}
+
+.footer p,
+.footer ul,
+.footer form {
+    margin: 0;
+    padding: 0;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer .input-group input {
+    border: none;
+    border-radius: 0;
+}
+
+.footer .input-group .btn {
+    border-radius: 0;
+}
+
+.footer .row>.col-md-3,
+.footer .row>.col-md-6 {
+    text-align: center;
+}
+
+
+
